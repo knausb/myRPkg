@@ -112,7 +112,7 @@ R CMD build myRPkg
 R CMD check --as-cran myRPkg_0.0.0.9000.tar.gz
 ```
 
-## Install and remove package
+## Install and remove the package
 
 We can install the package from the command line.
 
