@@ -141,7 +141,10 @@ Rscript -e "remove.packages('myRPkg')"
 ## Conclusion
 
 We should now have a funcitonal R package that uses `roxygen2` and `Rcpp`.
-We can now add funcitons that we are attempting to troubleshoot or make other modifications that may demonstrate issues.
+The above process has been automated in the script `make_myRPkg.sh`.
+However, if you encounter any issues you should step through the above directions.
+We can now add functions that we are attempting to troubleshoot or make other modifications that may demonstrate issues.
+
 
 ## Build log
 
