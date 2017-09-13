@@ -88,7 +88,9 @@ Rscript -e "devtools::document(pkg = 'myRPkg')"
 We'll now want to create an Rcpp function.
 
 ```
-echo "//' Multiply a number by two
+echo "#include <Rcpp.h>
+using namespace Rcpp;
+//' Multiply a number by two
 //'
 //' @param x A single integer.
 //' @export
