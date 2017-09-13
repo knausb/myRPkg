@@ -26,7 +26,7 @@ Rscript -e "devtools::use_gpl3_license(pkg = 'myRPkg')"
 Rscript -e "devtools::use_package_doc(pkg = 'myRPkg')"
 ```
 
-Now we can create a simple funciton for our package.
+Now we can create a simple function for our package.
 
 ```
 echo "#' Add together two numbers.
